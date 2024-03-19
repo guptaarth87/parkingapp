@@ -1,30 +1,45 @@
 .Booking {
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  .slots-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  .slot {
-    width: 80px;
-    height: 80px;
-    border: 1px solid #ccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-  
-  .slot.booked {
-    background-color: #ffcccc; /* Change color for booked slots */
-  }
-  
-  .slot:hover {
-    background-color: #e6e6e6; /* Change color on hover */
-  }
-  
+  text-align: center;
+  margin-top: 50px;
+}
+
+.slots-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.slot {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.slot.booked {
+  background-color: #b3d9ff; /* Light blue color for pre-booked slots */
+}
+
+.slot.selected {
+  background-color: #ffcccc; /* Pink color for newly selected slots */
+}
+
+.slot:hover {
+  background-color: #e6e6e6; /* Change color on hover */
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+
