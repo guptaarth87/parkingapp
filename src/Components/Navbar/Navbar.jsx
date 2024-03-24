@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Cookies from 'js-cookie';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -10,6 +11,7 @@ const Navbar = () => {
     const closeMenu = () => {
         setIsOpen(false);
     };
+    let username = Cookies.get('username');
 
     return (
         <nav className="bg-gray-800 p-4 ">
@@ -45,12 +47,19 @@ const Navbar = () => {
                     <a href="/about" className="text-white hover:text-gray-300 transition duration-300 block lg:inline-block mx-4">About Us</a>
                     <a href="/solutions" className="text-white hover:text-gray-300 transition duration-300 block lg:inline-block mx-4">Solutions</a>
                     <a href="/contact" className="text-white hover:text-gray-300 transition duration-300 block lg:inline-block mx-4">Contact Us</a>
+                    <a href="/book" className="text-white hover:text-gray-300 transition duration-300 block lg:inline-block mx-4">Book Slots</a>
+                
                 </div>
 
                 {/* Login Button */}
                 <div className={`lg:flex items-center mt-4 lg:mt-0 ${isOpen ? 'block' : 'hidden'}`}>
-                    <a href="/login" className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg transition duration-300 ml-4 lg:ml-0 mt-4 lg:mt-0">Login</a>
-                </div>
+                    {
+                        username?
+                        <h1 className='text-white text-2xl'>{username}</h1>:
+                        <a href="/login" className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg transition duration-300 ml-4 lg:ml-0 mt-4 lg:mt-0">Login</a>
+
+                    }
+                                   </div>
             </div>
         </nav>
     );

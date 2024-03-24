@@ -10,6 +10,8 @@ import SolutionsPage from './Pages/SolutionsPage';
 import LoginPage from './Pages/LoginPage';
 import Footer2 from './Components/Footer/Footer2';
 import BookSlot from './Pages/BookSlot';
+import Login from './Components/Authentication/Login';
+import Signup from './Components/Authentication/Signup';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,7 +23,8 @@ function App() {
     <Route path='/contact' element={<ContactPage/>}/>
     <Route path='/about' element={<AboutPage/>}/>
     <Route path='/solutions' element={<SolutionsPage/>}/>
-    <Route path='/login' element={<LoginPage/>}/>
+    <Route path='/login' element={<Login/>}/>
+    <Route path='/signup' element={<Signup/>}/>
     <Route path='/book' element={<BookSlot/>}/>
    </Routes>
    <Footer2/>

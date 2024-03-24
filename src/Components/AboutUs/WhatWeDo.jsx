@@ -37,7 +37,7 @@ export default function WhatWeDo() {
     </div>
 
     <footer class="text-center text-gray-500 text-sm mt-8">
-        &copy; 2024 Company XYZ. All rights reserved.
+        &copy; Intellipark. All rights reserved.
     </footer>
 
 

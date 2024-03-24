@@ -1,0 +1,78 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  .heading{
+    font-weight:700;
+    font-size:36px;
+    color: #434343;
+  
+  }
+  
+  .card_pos{
+    position:relative !important;
+    top:2rem;
+   
+  }
+  .title{
+    font-weight:700;
+    font-size:30px;
+    color: #434343;
+  }
+  .hashtags{
+    color:rgb(72, 72, 194);
+  }
+  .description{
+    font-size: 20px;
+    font-weight: 400;
+    color:#434343;
+  }
+  
+  .cardfooter{
+    font-family:"Encode Sans Condensed",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #666666
+  }
+  
+  .navbar-sticky{
+    width:100%;
+    height:5rem;
+    box-shadow: 0 0 10px 0 rgb(159, 153, 153);
+    position:relative;
+    z-index: 3;
+  }
+  .background-clr{
+    background-color: rgb(107, 107, 206) !important;
+    color:white !important;
+  }
+  
+  .position_button{
+    right:10px;
+    position:absolute;
+  }
+  
+  .footer{
+    width:100%;
+    height:5rem;
+    background-color: rgb(107, 107, 206) !important;
+   
+    
+    position: relative;
+    }
+  
+  .margin-top {
+    margin-top: 10rem;
+  }
+  
+  .footer-text{
+    position:relative;
+    top: 2rem;
+    text-align: center;
+    color:white !important;
+  }
+  
+  .position_model_close{
+    position:absolute !important;
+    right:10px;
+  }
