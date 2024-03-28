@@ -1,5 +1,5 @@
 import React from 'react'
-import Buildings from '../../assets/SolutionPage/buildings.jpg';
+import Buildings from '../../assets/SolutionPage/building.jpg';
 import Hospital from '../../assets/SolutionPage/hospital.jpg';
 import Market from '../../assets/SolutionPage/market.jpg';
 

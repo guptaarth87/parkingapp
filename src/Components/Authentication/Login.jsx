@@ -85,7 +85,7 @@ export default function Login() {
                         />
                       </div>
                       <br></br>
-                      <br></br>
+                    
                       <div className="form-group">
                         <label className="card_margin" htmlFor="inputPassword">
                           Password*

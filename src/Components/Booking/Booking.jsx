@@ -13,12 +13,16 @@ const totalSlots = 50; // Total number of parking slots
 
 
 export function Booking(props) {
+  const [place_, setPlace_] = useState('');
+
   const [bookedSlots, setBookedSlots] = useState([]);
   const [showWhatsappPopup , setShowWhatsappPopup] = useState(false);
+
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchData = async (place_) => {
       try {
-        const response = await axios.get(`${API_URL}/prebooked`);
+        console.log(place_);
+        const response = await axios.get(`${API_URL}/prebooked/${place_}`);
         const preBookedSlots = response.data.result;
         
         setBookedSlots(preBookedSlots);
@@ -26,8 +30,13 @@ export function Booking(props) {
         console.error('Error fetching pre-booked slots:', error);
       }
     };
-
-    fetchData(); // Call the fetchData function when the component mounts
+    
+    const queryString = window.location.search;
+    const params = new URLSearchParams(queryString);
+    const placeValue = params.get('place');
+    console.log(placeValue);
+    setPlace_(placeValue);
+    fetchData(placeValue); // Call the fetchData function when the component mounts
   }, []);
   
   const [selectedSlots, setSelectedSlots] = useState([]);
@@ -65,6 +74,7 @@ export function Booking(props) {
       "username": Cookies.get('username'),
       "phoneNo": Cookies.get('phoneNo'),
       "slots":selectedSlotNames,
+      "place_":place_,
       "amount":amount
     }
     if(!data_.username){

@@ -12,6 +12,7 @@ import Footer2 from './Components/Footer/Footer2';
 import BookSlot from './Pages/BookSlot';
 import Login from './Components/Authentication/Login';
 import Signup from './Components/Authentication/Signup';
+import SelectPlace from './Pages/SelectPlace';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,7 +26,8 @@ function App() {
     <Route path='/solutions' element={<SolutionsPage/>}/>
     <Route path='/login' element={<Login/>}/>
     <Route path='/signup' element={<Signup/>}/>
-    <Route path='/book' element={<BookSlot/>}/>
+    <Route path='/book' element={<SelectPlace/>}/>
+    <Route path='/bookslot' element={<BookSlot/>}/>
    </Routes>
    <Footer2/>
     </>

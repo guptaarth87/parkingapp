@@ -29,7 +29,7 @@ export default function TabComponent() {
       <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto ">
     <div class="flex flex-col text-center w-full mb-20">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Intellipark Technology</h1>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Intelli-Park Technology</h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">AI-IoT parking solution uses sensors and cameras to track parking availability in real time. AI algorithms then provide drivers with up-to-date information on available spaces. Drivers can also reserve parking spots in advance, pay for parking directly through the CuroPark app, and be guided to their reserved spaces.</p>
     </div>
     <div class="flex flex-wrap -m-4">

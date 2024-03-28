@@ -12,7 +12,17 @@ const Navbar = () => {
         setIsOpen(false);
     };
     let username = Cookies.get('username');
-
+    const handleLogout = () => {
+        // Delete cookies
+        Cookies.remove('username');
+        Cookies.remove('email');
+        Cookies.remove('phoneNo')
+      window.location.reload();
+    
+      
+        // Optionally, redirect to login page or perform other logout actions
+        // window.location.href = '/login';
+      };
     return (
         <nav className="bg-gray-800 p-4 ">
             <div className="container mx-auto flex justify-between items-center">
@@ -55,7 +65,13 @@ const Navbar = () => {
                 <div className={`lg:flex items-center mt-4 lg:mt-0 ${isOpen ? 'block' : 'hidden'}`}>
                     {
                         username?
-                        <h1 className='text-white text-2xl'>{username}</h1>:
+                        <button
+                        onClick={handleLogout}
+                        className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+                      >
+                        Logout
+                      </button>
+                        :
                         <a href="/login" className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg transition duration-300 ml-4 lg:ml-0 mt-4 lg:mt-0">Login</a>
 
                     }
