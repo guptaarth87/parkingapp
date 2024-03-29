@@ -1,10 +1,12 @@
 import React from 'react';
-import Img1 from '../../assets/team/1.jpeg';
+import Img1 from '../../assets/team/1.jpg';
+import Img2 from '../../assets/team/1.jp3g';
+import Img3 from '../../assets/team/1.jpg';
 
 const teams = [
-  { name_: 'Akshat Awasthi', designation: 'xyz', imgUrl: Img1, linkedinUrl: 'https://www.linkedin.com/in/akshatawasthy/' },
-  { name_: 'Aman Jain', designation: 'xyz2', imgUrl: Img1, linkedinUrl: 'https://www.linkedin.com/in/aman-jain098' },
-  { name_: 'Amit Khatri', designation: 'xyz2', imgUrl: Img1, linkedinUrl: 'https://www.linkedin.com/in/amit-khatri-/' },
+  { name_: 'Akshat Awasthi', designation: 'Founder', imgUrl: Img1, linkedinUrl: 'https://www.linkedin.com/in/akshatawasthy/' },
+  { name_: 'Aman Jain', designation: 'Co-founder', imgUrl: Img2, linkedinUrl: 'https://www.linkedin.com/in/aman-jain098' },
+  { name_: 'Amit Khatri', designation: 'Co-founder', imgUrl: Img3, linkedinUrl: 'https://www.linkedin.com/in/amit-khatri-/' },
 
 ];
 
