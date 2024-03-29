@@ -127,7 +127,8 @@ export function Booking(props) {
           </div>
         ))}
       </div>
-      <button onClick={bookSelectedSlots} >
+      <br></br>
+      <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg transition duration-300 ml-4 lg:ml-0 mt-4 lg:mt-0" onClick={bookSelectedSlots} >
         Book Selected Slots
       </button>
       </>

@@ -56,7 +56,7 @@ export default function Signup() {
         <div className="bg-white shadow-lg card lg:w-8/12 md:w-10/12 sm:w-10/12 authcard ">
           <div className="logo_head">
             <h2 className="alignCentre">
-              <span className="text-2xl highlight_logo text-center">Intellipark</span>
+              <span className="text-2xl highlight_logo text-center">Intelli-Park</span>
             </h2>
           </div>
           <div className="lg:flex md:flex sm:flex">

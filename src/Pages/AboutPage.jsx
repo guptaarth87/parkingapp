@@ -5,6 +5,8 @@ import Description from '../Components/AboutUs/Description'
 import WhatWeDo from '../Components/AboutUs/WhatWeDo'
 import Footer from '../Components/Footer/Footer'
 import Categories from '../Components/AboutUs/Categories'
+import OurTeam from '../Components/AboutUs/OurTeam'
+
 
 export default function AboutPage() {
   return (
@@ -14,7 +16,9 @@ export default function AboutPage() {
     <h2 className='text-3xl font-medium text-center title-font'>About Us</h2>
     <div className="container mx-auto   px-5  md:flex-row flex-col items-center">
     <WhatWeDo/>
+    <OurTeam/>
     <Section1/>
+
     <Description/>
  
     </div>

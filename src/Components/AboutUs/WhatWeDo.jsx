@@ -36,9 +36,7 @@ export default function WhatWeDo() {
         </div>
     </div>
 
-    <footer class="text-center text-gray-500 text-sm mt-8">
-        &copy; Intelli-Park. All rights reserved.
-    </footer>
+    
 
 
 

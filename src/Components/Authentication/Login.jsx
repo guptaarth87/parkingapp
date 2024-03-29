@@ -57,7 +57,7 @@ export default function Login() {
               <div className="lg:flex md:flex sm:flex lg:flex-row-reverse md:flex-row-reverse sm:flex-col">
                 <div className="lg:w-8/12 md:w-10/12 sm:w-full lg:mx-auto md:mx-auto sm:mx-0">
                   <h2 className="text-center text-2xl">
-                    <span className="highlight_logo">IntelliPark</span>
+                    <span className="highlight_logo">Intelli-Park</span>
                   </h2>
                   <div className="flex justify-between">
                     <h5 className="mt-3 greycolor">Don't have an account</h5>

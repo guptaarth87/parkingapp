@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Cookies from 'js-cookie';
+import Logo from '../../assets/logo.png';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +28,9 @@ const Navbar = () => {
         <nav className="bg-gray-800 p-4 ">
             <div className="container mx-auto flex justify-between items-center">
                 {/* Logo */}
-                <a href="/" className="text-white text-2xl font-bold">Logo</a>
+                <a href="/" className="text-white text-2xl font-bold">
+                  <img className="h-14" src={Logo} />
+                </a>
 
                 {/* Mobile Menu Button */}
                 <div className="block lg:hidden">
