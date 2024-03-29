@@ -1,7 +1,7 @@
 import React from 'react';
 import Img1 from '../../assets/team/1.jpg';
-import Img2 from '../../assets/team/1.jp3g';
-import Img3 from '../../assets/team/1.jpg';
+import Img2 from '../../assets/team/2.jpeg';
+import Img3 from '../../assets/team/3.jpg';
 
 const teams = [
   { name_: 'Akshat Awasthi', designation: 'Founder', imgUrl: Img1, linkedinUrl: 'https://www.linkedin.com/in/akshatawasthy/' },
