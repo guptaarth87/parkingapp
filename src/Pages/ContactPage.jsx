@@ -20,6 +20,7 @@ export default function ContactPage() {
       if (response.status === 200) {
         setSubmitSuccess(true);
         alert('FEEDBACK ADDED SUCCESSFULLY ')
+        window.location.reload();
       } else {
         setSubmitError('Failed to submit form. Please try again.');
       }
