@@ -1,0 +1,26 @@
+.card_tagline_div {
+    width: 80vw; /* 80% of the viewport width */
+    margin: 20px auto; /* Center the card horizontally with 10% margin on each side */
+    border-radius: 10px; /* Rounded corners for the card */
+    overflow: hidden; /* Hide overflowing content */
+    position: relative; /* Position relative for absolute positioning of text */
+}
+
+.card_tagline_div img {
+    width: 100%; /* Make the image fill the card */
+    height: 200px; /* Set your desired height */
+    object-fit: cover; /* Cover the card with the image */
+    border-radius: 10px 10px 0 0; /* Rounded corners for the top */
+}
+
+.card_tagline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding for the tagline */
+    border-radius: 5px; /* Rounded corners for the tagline */
+    font-size: 22px; /* Font size */
+}

@@ -50,7 +50,7 @@ export default function ContactPage() {
       <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
         <div class="lg:w-1/2 px-6">
           <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-          <p class="mt-1">Medicaps University, Indore</p>
+          <p class="mt-1">Medi-caps University, Indore</p>
         </div>
         <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
           <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
