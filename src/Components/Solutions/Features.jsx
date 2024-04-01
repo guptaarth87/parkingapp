@@ -27,7 +27,7 @@ export default function Features() {
             <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src={Hospital} />
             <div class="text-center relative z-10 w-full">
               <h2 class="text-xl text-gray-900 font-medium title-font mb-2">Hospitals</h2>
-              <p class="leading-relaxed">he system utilizes QR code for ticketless or touchless parking solution. QR is a code consisting of black and white squares readable by a machine. It is used for storing digital information that is scanned and read by a camera on a mobile phone. To provide secure parking solution, another key technology used by the system is Facial recognition. It makes use of Artificial intelligence (AI) to imitate human ability to recognize faces.</p>
+              <p class="leading-relaxed">The system utilizes QR code for ticketless or touchless parking solution. QR is a code consisting of black and white squares readable by a machine. It is used for storing digital information that is scanned and read by a camera on a mobile phone. To provide secure parking solution, another key technology used by the system is Facial recognition. It makes use of Artificial intelligence (AI) to imitate human ability to recognize faces.</p>
               <a href='/contact' class="mt-3 text-indigo-500 inline-flex items-center">Learn More
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>

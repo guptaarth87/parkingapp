@@ -4,7 +4,7 @@ import Img2 from '../../assets/team/2.jpeg';
 import Img3 from '../../assets/team/3.jpg';
 
 const teams = [
-  { name_: 'Akshat Awasthy', designation: 'Co-founder', imgUrl: Img2, linkedinUrl: 'https://www.linkedin.com/in/akshatawasthy/' },
+  { name_: 'Akshat Awasthy', designation: 'Founder', imgUrl: Img2, linkedinUrl: 'https://www.linkedin.com/in/akshatawasthy/' },
   { name_: 'Aman Jain', designation: 'Co-founder', imgUrl: Img3, linkedinUrl: 'https://www.linkedin.com/in/aman-jain098' },
   { name_: 'Amit Khatri', designation: 'Co-founder', imgUrl: Img1, linkedinUrl: 'https://www.linkedin.com/in/amit-khatri-/' },
 
